@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ATMEGA168A-M
+D ATMega328P
+$ENDCMP
+#
+#End Doc Library

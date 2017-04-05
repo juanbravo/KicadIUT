@@ -1,0 +1,16 @@
+EESchema-DOCLIB  Version 2.0  Date: Wed Jun 10 12:25:29 2015
+$CMP MCP6292
+D Dual Op amp (low power)
+K ampliop
+F ns/lm158.pdf
+$ENDCMP
+#
+#
+$CMP TS974
+D Quad Op amp.
+K AmpliOp
+F op_amps/lm324.pdf
+$ENDCMP
+#
+#
+#End Library

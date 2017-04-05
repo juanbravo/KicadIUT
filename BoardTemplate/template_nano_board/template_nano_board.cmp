@@ -1,0 +1,416 @@
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = jeu. 13 nov. 2014 18:54:49 CET
+
+BeginCmp
+TimeStamp = /545FC30B;
+Reference = C1;
+ValeurCmp = 1u;
+IdModule  = C2V8;
+EndCmp
+
+BeginCmp
+TimeStamp = /545FC311;
+Reference = C2;
+ValeurCmp = 1u;
+IdModule  = C2V8;
+EndCmp
+
+BeginCmp
+TimeStamp = /545FA296;
+Reference = C3;
+ValeurCmp = 47u;
+IdModule  = C2V10;
+EndCmp
+
+BeginCmp
+TimeStamp = /545FA2A5;
+Reference = C4;
+ValeurCmp = 100n;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /545FC331;
+Reference = C5;
+ValeurCmp = 1u;
+IdModule  = C2V8;
+EndCmp
+
+BeginCmp
+TimeStamp = /545FC317;
+Reference = C6;
+ValeurCmp = 1u;
+IdModule  = C2V8;
+EndCmp
+
+BeginCmp
+TimeStamp = /545FC31D;
+Reference = C7;
+ValeurCmp = 1u;
+IdModule  = C2V8;
+EndCmp
+
+BeginCmp
+TimeStamp = /545FDE81;
+Reference = C8;
+ValeurCmp = 100n;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /545FA287;
+Reference = D1;
+ValeurCmp = DIODE;
+IdModule  = D5;
+EndCmp
+
+BeginCmp
+TimeStamp = /545FB632;
+Reference = D2;
+ValeurCmp = 5.6V;
+IdModule  = D4;
+EndCmp
+
+BeginCmp
+TimeStamp = /545FB1B6;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /545FB5D3;
+Reference = D4;
+ValeurCmp = LED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /545FB181;
+Reference = D5;
+ValeurCmp = DIODE;
+IdModule  = D4;
+EndCmp
+
+BeginCmp
+TimeStamp = /545FB14F;
+Reference = D6;
+ValeurCmp = LED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /545FB11A;
+Reference = D7;
+ValeurCmp = DIODE;
+IdModule  = D4;
+EndCmp
+
+BeginCmp
+TimeStamp = /545FA278;
+Reference = F1;
+ValeurCmp = FUSE;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /54622443;
+Reference = JP1;
+ValeurCmp = JUMPER3;
+IdModule  = IUT-SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /545FB17B;
+Reference = K1;
+ValeurCmp = RELAY_2RT;
+IdModule  = Relais_Finder_30_22_2RT;
+EndCmp
+
+BeginCmp
+TimeStamp = /545FB1AB;
+Reference = K2;
+ValeurCmp = CONN_3;
+IdModule  = IUT-bornier3;
+EndCmp
+
+BeginCmp
+TimeStamp = /545FB1BD;
+Reference = K3;
+ValeurCmp = CONN_3;
+IdModule  = IUT-bornier3;
+EndCmp
+
+BeginCmp
+TimeStamp = /545FB114;
+Reference = K4;
+ValeurCmp = RELAY_2RT;
+IdModule  = Relais_Finder_30_22_2RT;
+EndCmp
+
+BeginCmp
+TimeStamp = /545FB144;
+Reference = K5;
+ValeurCmp = CONN_3;
+IdModule  = IUT-bornier3;
+EndCmp
+
+BeginCmp
+TimeStamp = /545FB156;
+Reference = K6;
+ValeurCmp = CONN_3;
+IdModule  = IUT-bornier3;
+EndCmp
+
+BeginCmp
+TimeStamp = /545FA264;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = IUT-bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /545FD54B;
+Reference = P2;
+ValeurCmp = CONN_6;
+IdModule  = IUT-bornier6;
+EndCmp
+
+BeginCmp
+TimeStamp = /545FC355;
+Reference = P3;
+ValeurCmp = CONN_4;
+IdModule  = IUT-bornier4;
+EndCmp
+
+BeginCmp
+TimeStamp = /545FB33A;
+Reference = P4;
+ValeurCmp = CONN_6;
+IdModule  = IUT-bornier6;
+EndCmp
+
+BeginCmp
+TimeStamp = /545FA55C;
+Reference = P5;
+ValeurCmp = CONN_6;
+IdModule  = IUT-bornier6;
+EndCmp
+
+BeginCmp
+TimeStamp = /545FB187;
+Reference = Q1;
+ValeurCmp = NPN;
+IdModule  = IUT-TO92;
+EndCmp
+
+BeginCmp
+TimeStamp = /545FB120;
+Reference = Q2;
+ValeurCmp = NPN;
+IdModule  = IUT-TO92;
+EndCmp
+
+BeginCmp
+TimeStamp = /545FA255;
+Reference = Q3;
+ValeurCmp = PNP;
+IdModule  = IUT-TO92;
+EndCmp
+
+BeginCmp
+TimeStamp = /5464EE2A;
+Reference = Q4;
+ValeurCmp = NPN;
+IdModule  = IUT-TO92;
+EndCmp
+
+BeginCmp
+TimeStamp = /5464F738;
+Reference = Q5;
+ValeurCmp = NPN;
+IdModule  = IUT-TO92;
+EndCmp
+
+BeginCmp
+TimeStamp = /5464F76A;
+Reference = Q6;
+ValeurCmp = NPN;
+IdModule  = IUT-TO92;
+EndCmp
+
+BeginCmp
+TimeStamp = /5464F79C;
+Reference = Q7;
+ValeurCmp = NPN;
+IdModule  = IUT-TO92;
+EndCmp
+
+BeginCmp
+TimeStamp = /5464F7CE;
+Reference = Q8;
+ValeurCmp = NPN;
+IdModule  = IUT-TO92;
+EndCmp
+
+BeginCmp
+TimeStamp = /5464F72A;
+Reference = Q9;
+ValeurCmp = PNP;
+IdModule  = IUT-TO92;
+EndCmp
+
+BeginCmp
+TimeStamp = /5464F75C;
+Reference = Q10;
+ValeurCmp = PNP;
+IdModule  = IUT-TO92;
+EndCmp
+
+BeginCmp
+TimeStamp = /5464F78E;
+Reference = Q11;
+ValeurCmp = PNP;
+IdModule  = IUT-TO92;
+EndCmp
+
+BeginCmp
+TimeStamp = /5464F7C0;
+Reference = Q12;
+ValeurCmp = PNP;
+IdModule  = IUT-TO92;
+EndCmp
+
+BeginCmp
+TimeStamp = /545FB614;
+Reference = R1;
+ValeurCmp = 2k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /545FB623;
+Reference = R2;
+ValeurCmp = 1k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /545FB193;
+Reference = R3;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /545FB18D;
+Reference = R4;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /545FB5E2;
+Reference = R5;
+ValeurCmp = 1k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /545FB12C;
+Reference = R6;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /545FB126;
+Reference = R7;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5464F421;
+Reference = R8;
+ValeurCmp = 4.3k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5464F74A;
+Reference = R9;
+ValeurCmp = 4.3k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5464F77C;
+Reference = R10;
+ValeurCmp = 4.3k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5464F7AE;
+Reference = R11;
+ValeurCmp = 4.3k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5464F7E0;
+Reference = R12;
+ValeurCmp = 4.3k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5464F1E9;
+Reference = R13;
+ValeurCmp = 10k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5464F744;
+Reference = R14;
+ValeurCmp = 10k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5464F776;
+Reference = R15;
+ValeurCmp = 10k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5464F7A8;
+Reference = R16;
+ValeurCmp = 10k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5464F7DA;
+Reference = R17;
+ValeurCmp = 10k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /545FC305;
+Reference = U1;
+ValeurCmp = MAX232;
+IdModule  = IUT-DIP_16__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /545FA246;
+Reference = U2;
+ValeurCmp = ARDUINO_MINI;
+IdModule  = arduino_mini_ge;
+EndCmp
+
+EndListe

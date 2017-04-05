@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0  Date: Wed Apr 05 09:47:10 2017
+#
+$CMP ATMEGA168A-M
+D ATMega328P
+$ENDCMP
+#
+#End Library

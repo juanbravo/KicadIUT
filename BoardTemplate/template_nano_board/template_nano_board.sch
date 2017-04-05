@@ -1,0 +1,446 @@
+EESchema Schematic File Version 2
+LIBS:ProjetArduinoNano
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "14 dec 2015"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L +5V #PWR01
+U 1 1 545FA345
+P 5800 1750
+F 0 "#PWR01" H 5800 1840 20  0001 C CNN
+F 1 "+5V" H 5850 1900 59  0000 C CIB
+F 2 "" H 5800 1750 60  0000 C CNN
+F 3 "" H 5800 1750 60  0000 C CNN
+	1    5800 1750
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5950 1800
+NoConn ~ 5100 4250
+NoConn ~ 5100 4150
+Text Label 6600 2300 0    60   ~ 0
+PD13
+Text Label 6600 2400 0    60   ~ 0
+PD12
+Text Label 6600 2500 0    60   ~ 0
+PD11
+Text Label 6600 2600 0    60   ~ 0
+PD10
+Text Label 6600 3550 0    60   ~ 0
+PD2
+Text Label 6600 3450 0    60   ~ 0
+PD3
+Text Label 4950 2750 0    60   ~ 0
+A0
+Text Label 6600 2700 0    60   ~ 0
+PD9
+Text Label 6600 2800 0    60   ~ 0
+PD8
+Text Label 6600 2900 0    60   ~ 0
+PD7
+Text Label 6600 3000 0    60   ~ 0
+PD6
+Text Label 6600 3250 0    60   ~ 0
+PD5
+Text Label 5000 3350 2    60   ~ 0
+A6
+Text Label 5000 3450 2    60   ~ 0
+A7
+NoConn ~ 6500 3750
+NoConn ~ 6500 3650
+NoConn ~ 5100 2550
+Text Label 4950 2850 0    60   ~ 0
+A1
+Text Label 4950 2950 0    60   ~ 0
+A2
+Text Label 4950 3050 0    60   ~ 0
+A3
+Text Label 4950 3150 0    60   ~ 0
+A4
+Text Label 4950 3250 0    60   ~ 0
+A5
+$Comp
+L +5V #PWR02
+U 1 1 545FDE87
+P 6200 1350
+F 0 "#PWR02" H 6200 1440 20  0001 C CNN
+F 1 "+5V" H 6200 1440 30  0000 C CNN
+F 2 "" H 6200 1350 60  0000 C CNN
+F 3 "" H 6200 1350 60  0000 C CNN
+	1    6200 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG03
+U 1 1 54622802
+P 2350 7050
+F 0 "#FLG03" H 2350 7145 30  0001 C CNN
+F 1 "PWR_FLAG" H 2350 7230 30  0000 C CNN
+F 2 "" H 2350 7050 60  0000 C CNN
+F 3 "" H 2350 7050 60  0000 C CNN
+	1    2350 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR04
+U 1 1 5462280F
+P 2500 7050
+F 0 "#PWR04" H 2500 7000 20  0001 C CNN
+F 1 "+12V" H 2500 7150 30  0000 C CNN
+F 2 "" H 2500 7050 60  0000 C CNN
+F 3 "" H 2500 7050 60  0000 C CNN
+	1    2500 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG05
+U 1 1 546228C2
+P 2350 7400
+F 0 "#FLG05" H 2350 7495 30  0001 C CNN
+F 1 "PWR_FLAG" H 2350 7580 30  0000 C CNN
+F 2 "" H 2350 7400 60  0000 C CNN
+F 3 "" H 2350 7400 60  0000 C CNN
+	1    2350 7400
+	1    0    0    -1  
+$EndComp
+Text Label 6600 3350 0    60   ~ 0
+PD4
+$Comp
+L PWR_FLAG #FLG06
+U 1 1 54622A30
+P 2750 7050
+F 0 "#FLG06" H 2750 7145 30  0001 C CNN
+F 1 "PWR_FLAG" H 2750 7230 30  0000 C CNN
+F 2 "" H 2750 7050 60  0000 C CNN
+F 3 "" H 2750 7050 60  0000 C CNN
+	1    2750 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 1700 5650 1800
+Wire Wire Line
+	5800 4500 5800 4600
+Wire Wire Line
+	5900 4500 5800 4500
+Wire Wire Line
+	6500 2300 6600 2300
+Wire Wire Line
+	6500 2400 6600 2400
+Wire Wire Line
+	6500 2500 6600 2500
+Wire Wire Line
+	6500 2600 6600 2600
+Wire Wire Line
+	6500 3450 6600 3450
+Wire Wire Line
+	6600 3550 6500 3550
+Wire Wire Line
+	5100 2750 4950 2750
+Wire Wire Line
+	6500 2700 6600 2700
+Wire Wire Line
+	6500 2800 6600 2800
+Wire Wire Line
+	6500 2900 6600 2900
+Wire Wire Line
+	6500 3000 6600 3000
+Wire Wire Line
+	6500 3250 6600 3250
+Wire Wire Line
+	5100 3450 5000 3450
+Wire Wire Line
+	5100 3350 5000 3350
+Wire Wire Line
+	5100 3250 4950 3250
+Wire Wire Line
+	5100 3150 4950 3150
+Wire Wire Line
+	4950 3050 5100 3050
+Wire Wire Line
+	5100 2950 4950 2950
+Wire Wire Line
+	4950 2850 5100 2850
+Wire Wire Line
+	6200 1350 6200 1500
+Wire Wire Line
+	2350 7050 2500 7050
+Wire Wire Line
+	2350 7400 2500 7400
+Wire Wire Line
+	2500 7400 2500 7450
+Wire Wire Line
+	6500 3350 6600 3350
+Wire Wire Line
+	2750 7050 2950 7050
+Text Notes 800  700  0    60   ~ 0
+bloc alim externe optionel\nLla nano peut être alimentée par USB uniquement: dans ce cas supprimer ce d'alim externe (Vin sera alors non connectée)
+$Comp
+L +5V #PWR07
+U 1 1 566E8A9C
+P 3550 7050
+F 0 "#PWR07" H 3550 7140 20  0001 C CNN
+F 1 "+5V" H 3550 7140 30  0000 C CNN
+F 2 "" H 3550 7050 60  0000 C CNN
+F 3 "" H 3550 7050 60  0000 C CNN
+	1    3550 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG08
+U 1 1 566E8AAB
+P 3350 7050
+F 0 "#FLG08" H 3350 7145 30  0001 C CNN
+F 1 "PWR_FLAG" H 3350 7230 30  0000 C CNN
+F 2 "" H 3350 7050 60  0000 C CNN
+F 3 "" H 3350 7050 60  0000 C CNN
+	1    3350 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduino_nano U1
+U 1 1 566E8DC7
+P 5800 2950
+F 0 "U1" H 6300 2000 70  0000 C CNN
+F 1 "ARDUINO_NANO" H 6550 1900 70  0000 C CNN
+F 2 "arduino_mini:IUT-arduino_mini" H 5800 2000 60  0001 C CNN
+F 3 "~" H 5800 2950 60  0000 C CNN
+	1    5800 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 J1
+U 1 1 58E4C900
+P 1500 1450
+F 0 "J1" H 1500 1600 50  0000 C CNN
+F 1 "CONN_01X02" V 1600 1450 50  0000 C CNN
+F 2 "" H 1500 1450 50  0001 C CNN
+F 3 "" H 1500 1450 50  0001 C CNN
+	1    1500 1450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Fuse F1
+U 1 1 58E4C9EA
+P 2000 1400
+F 0 "F1" V 2080 1400 50  0000 C CNN
+F 1 "Fuse" V 1925 1400 50  0000 C CNN
+F 2 "arduino_mini:IUT-FUSE-SM1210" V 1930 1400 50  0001 C CNN
+F 3 "" H 2000 1400 50  0001 C CNN
+	1    2000 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L C C4
+U 1 1 58E4CA6A
+P 2750 1600
+F 0 "C4" H 2775 1700 50  0000 L CNN
+F 1 "100n" H 2775 1500 50  0000 L CNN
+F 2 "" H 2788 1450 50  0001 C CNN
+F 3 "" H 2750 1600 50  0001 C CNN
+	1    2750 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 1400 1850 1400
+Wire Wire Line
+	2150 1400 3000 1400
+Wire Wire Line
+	2750 1350 2750 1450
+Wire Wire Line
+	2450 1400 2450 1500
+Connection ~ 2450 1400
+Wire Wire Line
+	2750 1750 2750 1900
+Wire Wire Line
+	1750 1900 3000 1900
+Wire Wire Line
+	1750 1900 1750 1500
+Wire Wire Line
+	1750 1500 1700 1500
+Wire Wire Line
+	2450 1800 2450 2000
+Connection ~ 2450 1900
+$Comp
+L +12V #PWR09
+U 1 1 58E4CC70
+P 1750 1350
+F 0 "#PWR09" H 1750 1200 50  0001 C CNN
+F 1 "+12V" H 1750 1490 50  0000 C CNN
+F 2 "" H 1750 1350 50  0001 C CNN
+F 3 "" H 1750 1350 50  0001 C CNN
+	1    1750 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12LF #PWR010
+U 1 1 58E4CC9A
+P 2750 1350
+F 0 "#PWR010" H 2750 1200 50  0001 C CNN
+F 1 "+12LF" H 2750 1490 50  0000 C CNN
+F 2 "" H 2750 1350 50  0001 C CNN
+F 3 "" H 2750 1350 50  0001 C CNN
+	1    2750 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 1350 1750 1400
+Connection ~ 1750 1400
+Connection ~ 2750 1400
+$Comp
+L GND #PWR011
+U 1 1 58E4CDA6
+P 2450 2000
+F 0 "#PWR011" H 2450 1750 50  0001 C CNN
+F 1 "GND" H 2450 1850 50  0000 C CNN
+F 2 "" H 2450 2000 50  0001 C CNN
+F 3 "" H 2450 2000 50  0001 C CNN
+	1    2450 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12LF #PWR012
+U 1 1 58E4D5D8
+P 5650 1700
+F 0 "#PWR012" H 5650 1550 50  0001 C CNN
+F 1 "+12LF" H 5650 1840 50  0000 C CNN
+F 2 "" H 5650 1700 50  0001 C CNN
+F 3 "" H 5650 1700 50  0001 C CNN
+	1    5650 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12LF #PWR013
+U 1 1 58E4DAF0
+P 2950 7000
+F 0 "#PWR013" H 2950 6850 50  0001 C CNN
+F 1 "+12LF" H 2950 7140 50  0000 C CNN
+F 2 "" H 2950 7000 50  0001 C CNN
+F 3 "" H 2950 7000 50  0001 C CNN
+	1    2950 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 7050 2950 7000
+$Comp
+L C C8
+U 1 1 58E4DF6F
+P 6200 1650
+F 0 "C8" H 6225 1750 50  0000 L CNN
+F 1 "100n" H 6225 1550 50  0000 L CNN
+F 2 "" H 6238 1500 50  0001 C CNN
+F 3 "" H 6200 1650 50  0001 C CNN
+	1    6200 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR014
+U 1 1 58E4E02E
+P 6200 1850
+F 0 "#PWR014" H 6200 1600 50  0001 C CNN
+F 1 "GND" H 6350 1800 50  0000 C CNN
+F 2 "" H 6200 1850 50  0001 C CNN
+F 3 "" H 6200 1850 50  0001 C CNN
+	1    6200 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 1850 6200 1800
+$Comp
+L D D1
+U 1 1 58E4E1D6
+P 2450 1650
+F 0 "D1" H 2450 1750 50  0000 C CNN
+F 1 "D" H 2450 1550 50  0000 C CNN
+F 2 "" H 2450 1650 50  0001 C CNN
+F 3 "" H 2450 1650 50  0001 C CNN
+	1    2450 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR015
+U 1 1 58E4E7A3
+P 2500 7450
+F 0 "#PWR015" H 2500 7200 50  0001 C CNN
+F 1 "GND" H 2500 7300 50  0000 C CNN
+F 2 "" H 2500 7450 50  0001 C CNN
+F 3 "" H 2500 7450 50  0001 C CNN
+	1    2500 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR016
+U 1 1 58E4E835
+P 5800 4600
+F 0 "#PWR016" H 5800 4350 50  0001 C CNN
+F 1 "GND" H 5800 4450 50  0000 C CNN
+F 2 "" H 5800 4600 50  0001 C CNN
+F 3 "" H 5800 4600 50  0001 C CNN
+	1    5800 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C3
+U 1 1 58E4CBB1
+P 3000 1600
+F 0 "C3" H 3025 1700 50  0000 L CNN
+F 1 "47u" H 3025 1500 50  0000 L CNN
+F 2 "" H 3000 1600 50  0001 C CNN
+F 3 "" H 3000 1600 50  0001 C CNN
+	1    3000 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 1400 3000 1450
+Wire Wire Line
+	3000 1900 3000 1750
+Connection ~ 2750 1900
+Wire Wire Line
+	3350 7050 3350 7100
+Wire Wire Line
+	3350 7100 3550 7100
+Wire Wire Line
+	3550 7100 3550 7050
+Wire Wire Line
+	5800 1750 5800 1800
+Text Notes 5500 1150 0    60   ~ 0
++5V est une sortie\nalim USB ou regulateur 5v si alim externe(voir schéma nano)
+$EndSCHEMATC

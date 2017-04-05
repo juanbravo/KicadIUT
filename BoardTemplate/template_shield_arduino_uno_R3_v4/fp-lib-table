@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name CONNECTIQUE_LOCAL)(type KiCad)(uri "$(KIPRJMOD)/Lib/IUT-CONNECTIQUE.pretty")(options "")(descr connecteur))
+)

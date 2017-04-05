@@ -1,0 +1,34 @@
+Template kicad pour arduino r3. Version linux
+(Utilisable sous windows)
+Testé avec la version : Kicad 4.0.2
+
+Organisation :
+  docs : toutes les docs relatives aux projets.
+  lib :  symboles supplémentaires de votre projet
+  LibIut : librairies adaptées pour une fabrication à l'IUT.
+  mod :  modules  supplémentaires de votre projet
+  fab :  fichiers nécessaires à la fabrication : typons, perçage, ....
+
+ATTENTION :Les différents logiciels (schéma,assiocation,pcb) doivent s'ouvrir sans messages d'erreurs avant de
+commencer à travailler sur le projet.
+
+Ensuite :
+
+1/ Renommez le dossier contenant le projet avec le nom souhaité.
+2/ Exéctuez le script python3 rename.py : tous les fichiers de projet seront renommés avec le nom du dossier
+   (Si vous n'avez pas python3 installé, il faut renommer .pro, .kicad_pcb, .sch, .lib et .net à la main.
+   Attention à mettre strictement le même nom pour chaque fichier.)
+3/ Dans kicad ouvrez le projet nom_du_dossier.pro
+
+***************************************************************
+*Attention ne changez pas la numérotation des connecteurs !!!!*
+*Toujours conserver l'annotation existante.                   *
+***************************************************************
+
+Si vous voulez les dernières versions des librairies IUT pour votre système vous pouvez les télécharger à :
+  https://github.com/juanbravo/KicadIUT
+Recopier les fichiers mod dans une répertoire de votre choix sur votre disque.
+Ensuite dans les préférences de librairies ajouter les librairies avec le Wizard en indiquant ce répertoire.
+
+P. Arlotto
+

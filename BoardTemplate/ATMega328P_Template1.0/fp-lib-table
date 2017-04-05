@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name IUT-CONNECTIQUE)(type KiCad)(uri "$(KIPRJMOD)/mod/IUT-CONNECTIQUE.pretty")(options "")(descr ""))
+  (lib (name IUT-CRYSTAL)(type KiCad)(uri "$(KIPRJMOD)/mod/IUT-CRYSTAL.pretty")(options "")(descr ""))
+)

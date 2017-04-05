@@ -1,0 +1,31 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = mer. 09 sept. 2015 10:36:58 CEST
+
+BeginCmp
+TimeStamp = /4F466F57;
+Reference = J1;
+ValeurCmp = POWER;
+IdModule  = IUT-SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F466F60;
+Reference = J2;
+ValeurCmp = AD;
+IdModule  = IUT-SIL-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F466F53;
+Reference = J3;
+ValeurCmp = IOL;
+IdModule  = IUT-SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F466F47;
+Reference = J4;
+ValeurCmp = IOH;
+IdModule  = IUT-SIL-10;
+EndCmp
+
+EndListe

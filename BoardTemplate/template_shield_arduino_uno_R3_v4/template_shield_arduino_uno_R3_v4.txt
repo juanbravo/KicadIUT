@@ -1,0 +1,10 @@
+
+template_shield_arduino_uno_R3: 
+	template pour la fabrication d'un shield type UNO-R3. Outil de renommage rename.py automatique de tous les fichier.
+	si vous etes sur windows veuillez installer python 3
+	
+	exemple: renommer le repertoire.cliquez sur rename.py ( sur windows) OU
+			tapez python rename.py (sur linux) 
+	Rq: si plusieurs version de python coexiste taper python3 rename.py monProjetShield
+
+	
